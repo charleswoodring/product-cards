@@ -9,168 +9,182 @@
 </head>
 <body>
     <h1>Products</h1>
-<!-- div*6>h2+img+p+h6+(ul>li*2)*2 -->
-<!--    <div>
-        <h2>Blank Compact Discs</h2>
-        <img src="https://images.vice.com/motherboard/content-images/article/31405/1457629879649669.jpg?crop=1xw%3A0.843956043956044xh%3Bcenter%2Ccenter&resize=2000%3A*" alt="Compact Discs">
-        <p>Compact Discs for recording music, storing pictures, backup of your data.</p>
-        <h3>Availability</h3>
-        <ul>Specifications
-            <li>Size:   700 MB</li>
-            <li>Weight: 2 oz</li>
-        </ul>
-        <footer>Specifications valid until obsolte</footer>
-        <ul>Pricing
-            <li>1:      $1.00</li>
-            <li>2-100:  $0.85</li>
-            <li>101+:   $0.75</li>
-        </ul>
-    </div> -->
-<!-- div.rockCard*6>(div.rockCardHeader>h2.rockType+img+p.description+h6)+(div.specs>p.header+(ul>li*2)+p.footer)+(div.price>p.header+(ul>li*2)) -->    
 
-    <div class="CDCard">
-        <div class="CDCardHeader">
-            <h2 class=>Blank Compact Discs</h2>
-            <img src="https://images.vice.com/motherboard/content-images/article/31405/1457629879649669.jpg?crop=1xw%3A0.843956043956044xh%3Bcenter%2Ccenter&resize=2000%3A*" alt="Compact Discs">
-            <p  class=>Compact Discs for recording music, storing pictures, backup of your data.</p>
-            <h6>Availability</h6>
+<div class="flex-container">
+    <div class="CDCard cardSize">
+            <div class="CDCardHeader cardHeader">
+                <h2>Blank Compact Discs</h2>
+                <img src="https://images.vice.com/motherboard/content-images/article/31405/1457629879649669.jpg?crop=1xw%3A0.843956043956044xh%3Bcenter%2Ccenter&resize=2000%3A*" alt="Compact Discs">
+                <p>Compact Discs for recording music, storing pictures, backup of your data.</p>
+                <div class="available"><h3>Available</h3></div>
+            </div>
+        <div><span>Specifications</span>
+            <div class="specs">
+                <p class="header"></p>
+                <ul>
+                    <li>Size:   700 MB</li>
+                    <li>Weight: 2 oz</li>
+                </ul>
+                <p class="footer"></p>
+                <h5>Specifications valid until obsolte or 2020. Whichever comes first.</h5>
+            </div>
         </div>
-        <div class="specs">
-            <p class="header"></p>
-            <ul><span>Specifications</span>
-                <li>Size:   700 MB</li>
-                <li>Weight: 2 oz</li>
-            </ul>
-            <p class="footer"></p>
-        </div>
-        <h4>Specifications valid until obsolte</h4>
-        <div class="price">
-            <p class="header"></p>
-            <ul><span>Pricing</span>
-                <li>1:      $1.00</li>
-                <li>2-100:  $0.85</li>
-                <li>101+:   $0.75</li>
-            </ul>
-        </div>
-    </div>
-    <div class="chickenCard">
-        <div class="chickenCardHeader">
-            <h2 class=>Rubber Chickens</h2>
-            <img src="https://cdn.shopify.com/s/files/1/0072/1432/products/ittybitty_large_7aab8401-229e-4fcf-ae61-314866724ca7_700x.jpg?v=1491834862" alt="Rubber Chicken">
-            <p class=>The classic gag gift!  Loads of fun! Own your very own rubber chicken!</p>
-            <h6>Availability</h6>
-        </div>
-        <div class="specs">
-            <p class="header"></p>
-            <ul><span>Specifications</span>
-                <li>Size:   13.5"</li>
-                <li>Weight: 2 oz</li>
-                <li>Color: Yellow</li>
-            </ul>
-            <p class="footer"></p>
-        </div>
-        <h4>Specifications valid until current date +30</h4>
-        <div class="price">
-            <p class="header"></p>
-            <ul><span>Pricing</span>
-                <li>1:      $2.50</li>
-                <li>2-25:   $2.00</li>
-                <li>26+:    $1.75</li>
-            </ul>
+        <div><span>Pricing</span>
+            <div class="price">
+                <p class="header"></p>
+                <ul>
+                    <li>1:      $1.00</li>
+                    <li>2-100:  $0.85</li>
+                    <li>101+:   $0.75</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="rainCard">
-        <div class="rainCardHeader">
-            <h2 class=>Gallons 'o Rainwater</h2>
-            <img src="https://www.thoughtco.com/thmb/8vrwFz04uskj25rAk-6NPDoxEK4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-591910329-56f6b5243df78c78418c3124.jpg" alt="Rain">
-            <p class=>Fresh Rainwater for your plants</p>
-            <h6>Availability</h6>
+    <div class="chickenCard cardSize">
+          <div class="chickenCardHeader cardHeader">
+                <h2>Rubber Chickens</h2>
+                <img src="https://cdn.shopify.com/s/files/1/0072/1432/products/ittybitty_large_7aab8401-229e-4fcf-ae61-314866724ca7_700x.jpg?v=1491834862" alt="Rubber Chicken">
+                <p>The classic gag gift!  Loads of fun! Own your very own rubber chicken!</p>
+                <div class="available"><h3>Available</h3></div>
+            </div>
+        <div><span>Specifications</span>
+            <div class="specs">
+                <p class="header"></p>
+                <ul>
+                    <li>Size:   13.5"</li>
+                    <li>Weight: 2 oz</li>
+                    <li>Color: Yellow</li>
+                </ul>
+                <p class="footer"></p>
+                <h5>Specifications valid until the clown convention.</h5>
+            </div>
         </div>
-        <div class="specs">
-            <p class="header"></p>
-            <ul><span>Specifications</span>
-                <li>Size: 1G / 5G</li>
-                <li>Weight: 8.3 lbs/ 41.5 lbs</li>
-            </ul>
-            <p class="footer"></p>
-        </div><span>Price</span>
-        <div class="price">
-            <p class="header"></p>
-            <ul>
+        <div><span>Pricing</span>
+            <div class="price">
+                <p class="header"></p>
+                <ul><span>Pricing</span>
+                    <li>1:      $2.50</li>
+                    <li>2-25:   $2.00</li>
+                    <li>26+:    $1.75</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="rainCard cardSize">
+            <div class="rainCardHeader cardHeader">
+                <h2>Gallons 'o Rainwater</h2>
+                <img src="https://www.thoughtco.com/thmb/8vrwFz04uskj25rAk-6NPDoxEK4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-591910329-56f6b5243df78c78418c3124.jpg" alt="Rain">
+                <p>Fresh Rainwater for your plants</p>
+                <div class="available"><h3>Available</h3></div>
+            </div>
+        <div><span>Specifications</span>
+            <div class="specs">
+                <p class="header"></p>
+                <ul>
+                    <li>Size: 1G / 5G</li>
+                    <li>Weight: 8.3 lbs/ 41.5 lbs</li>
+                </ul>
+                <p class="footer"></p>
+                <h5>Specifications valid up to 10 days after it rains.</h5>
+            </div>
+        </div>
+        <div><span>Pricing</span>
+            <div class="price">
+                <p class="header"></p>
+                <ul>
                 <li>1 G: $10</li>
                 <li>5 G: $40</li>
-            </ul>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="slinkyCard">
-        <div class="slinkyCardHeader">
-            <h2 class=>Original Slinky</h2>
-            <img src="https://pagebean-pagebean.netdna-ssl.com/sciplus/productImages/Regular/SL005.jpg" alt="Slinky">
-            <p class=>The original classic slinky.  Amaze your friends as you make your slinky walk down the stairs.</p>
-            <h6>Availability</h6>
+    </div>
+    <div class="flex-container">
+        <div class="slinkyCard cardSize">
+            <div class="slinkyCardHeader cardHeader">
+                <h2>Original Slinky</h2>
+                <img src="https://pagebean-pagebean.netdna-ssl.com/sciplus/productImages/Regular/SL005.jpg" alt="Slinky">
+                <p>The original classic slinky.  Amaze your friends as you make your slinky walk down the stairs.</p>
+                <div class="available"><h3>Available</h3></div>
+            </div>
+        <div><span>Specifications</span>
+            <div class="specs">
+                <p class="header"></p>
+                <ul>
+                    <li>Size: 2-7/8" dia x 2-1/2" long</li>
+                    <li>Weight: .5 lb</li>
+                </ul>
+                <p class="footer"></p>
+                <h5>Specifications valid forever.</h5>
+            </div>
         </div>
-        <div class="specs">
-            <p class="header"></p>
-            <ul><span>Specifications</span>
-                <li>Size: 2-7/8" dia x 2-1/2" long</li>
-                <li>Weight: .5 lb</li>
-            </ul>
-            <p class="footer"></p>
-        </div>
-        <div class="price">
+        <div><span>Pricing</span>
+            <div class="price">
             <p class="header"></p>
             <ul><span>Prices</span>
                 <li>1: $4.95</li>
                 <li>pack of 3:  $14.35</li>
             </ul>
+            </div>
         </div>
     </div>
-    <div class="rokuCard">
-        <div class="rokuCardHeader">
-            <h2 class="rokuType"></h2>
-            <img src="https://images.techhive.com/images/article/2015/07/roku-3-100598091-large.jpg" alt="Roku3">
-            <p class=>The Roku 3.  Stream TV shows and movies. </p>
-            <h6>Availability</h6>
+    <div class="rokuCard cardSize">
+                <div class="rokuCardHeader cardHeader">
+                    <h2>Roku 3</h2>
+                    <img src="https://images.techhive.com/images/article/2015/07/roku-3-100598091-large.jpg" alt="Roku3">
+                    <p>The Roku 3.  Stream TV shows and movies. </p>
+                    <div class="available"><h3>Available</h3></div>
+                </div>
+            <div><span>Specifications</span>
+                <div class="specs">
+                    <p class="header"></p>
+                    <ul><span>Specifications</span>
+                        <li>Output: 720p/1080p</li>
+                        <li>Connection: WiFi/Ethernet</li>
+                    </ul>
+                    <p class="footer"></p>
+                    <h5>Specifications valid for one year after Roku 4 is released.</h5>
+                </div>
+            </div>
+            <div><span>Pricing</span>
+                <div class="price">
+                    <p class="header"></p>
+                    <ul>
+                    <li>1-5: $69.00</li>
+                    <li>6+: $59.00</li>
+                </ul>
+                </div>
+            </div>
+    </div>
+    <div class="cardCard cardSize">
+            <div class="cardHeader cardHeader">
+                <h2>Playing Cards</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBmzSM3-UfmnsbgU8xtB7NjdiE_47kj8hE8mqECN7zlIZYfAQ" alt="Playing Cards">
+                <p>Standard playing cards.  Play games or perform magic tricks to amaze your friends!</p>
+                <div class="available"><h3>Available</h3></div>
+            </div>
+        <div><span>Specifications</span>
+            <div class="specs">
+                <p class="header"></p>
+                <ul>
+                    <li>cards per deck: 52</li>
+                    <li>jokers per deck: 2</li>
+                </ul>
+                <p class="footer"></p>
+                <h5>Specifications valid all the time.</h5>
+            </div>
         </div>
-        <div class="specs">
-            <p class="header"></p>
-            <ul><span>Specifications</span>
-                <li>Output: 720p/1080p</li>
-                <li>Connection: WiFi/Ethernet</li>
-            </ul>
-            <p class="footer"></p>
-        </div>
-        <div class="price">
-            <p class="header"></p>
-            <ul><span>Pricing</span>
-                <li>1-5: $69.00</li>
-                <li>6+: $59.00</li>
-            </ul>
+        <div><span>Pricing</span>
+            <div class="price">
+                <p class="header"></p>
+                <ul><span>pricing</span>
+                    <li>1-10 decks: $2.00</li>
+                    <li>10+: $1.75</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="cardCard">
-        <div class="cardHeader">
-            <h2 class="cardType"></h2>
-            <img src="" alt="">
-            <p class="description"></p>
-            <h6>Availibility</h6>
-        </div>
-        <div class="specs">
-            <p class="header"></p>
-            <ul><span>Specifications</span>
-                <li>cards per deck: 52</li>
-                <li>jokers per deck: 2</li>
-            </ul>
-            <p class="footer"></p>
-        </div>
-        <div class="price">
-            <p class="header"></p>
-            <ul><span>pricing</span>
-                <li>1-10 decks: $2.00</li>
-                <li>10+: $1.75</li>
-            </ul>
-        </div>
     </div>
-    <h1>Bottom of Page</h1>
+</div>
 </body>
 </html>

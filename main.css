@@ -1,4 +1,42 @@
 body {
-    background-color: white;
+    background-color: gainsboro;
     color:  black;
 }
+    .flex-container {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+    
+    img {
+      height: 325px;
+      width: 325px;
+    }
+
+    .cardSize {
+      height: 800px;
+      width: 30%;
+      border: 2px solid gray;
+    }
+
+    .cardHeader {
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    
+    h2 {
+      border: 2px solid gray;
+    }
+
+    .available {
+      background-color: gray;
+      color: yellow;
+    }
